@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>character names :)</title>
+
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 6px;
+            margin: 20px auto;
+        }
+
+        table {
+            display: none;
+            width: 50%;
+        }
+
+        th {
+            width: 30%;
+        }
+
+        #name_button {
+            margin: 8px auto;
+            padding: 4px;
+            font-size: 115%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Get some character names</h1>
+    <p>created by <a href="https://github.com/nyatalieeee" target="_blank">natalie</a> in like an hour or two</p>
+
+    <hr />
+
+    <section>
+        <button id="name_button">Generate names!</button>
+        <table id="table">
+            <tr id="table_header">
+                <th>Character number</th>
+                <th>First name</th>
+                <th>Last name</th>
+            </tr>
+        </table>
+        <h2 id="loading"></h2>
+    </section>
+
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
