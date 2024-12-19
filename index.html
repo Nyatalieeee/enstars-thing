@@ -6,31 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>character names :)</title>
 
-    <style>
-        table,
-        td,
-        th {
-            border: 1px solid black;
-            border-collapse: collapse;
-            padding: 6px;
-            margin: 20px auto;
-        }
-
-        table {
-            display: none;
-            width: 50%;
-        }
-
-        th {
-            width: 30%;
-        }
-
-        #name_button {
-            margin: 8px auto;
-            padding: 4px;
-            font-size: 115%;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
@@ -40,7 +16,10 @@
     <hr />
 
     <section>
-        <button id="name_button">Generate names!</button>
+        <div class="container">
+            <p id="agreement">By clicking this button you agree to being a cheater (/j)</p>
+            <button id="name_button">Generate names!</button>
+        </div>
         <table id="table">
             <tr id="table_header">
                 <th>Character number</th>

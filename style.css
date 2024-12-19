@@ -1,0 +1,28 @@
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 6px;
+    margin: 20px auto;
+}
+
+table {
+    display: none;
+    width: 85%;
+}
+
+th {
+    width: 30%;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+#name_button {
+    margin: 8px auto;
+    padding: 4px;
+    font-size: 115%;
+}
