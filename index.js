@@ -1,7 +1,5 @@
 import getCharNames from './getCharacterNames.js';
 
-const characters = await getCharNames();
-
 const table = document.getElementById('table');
 const nameButton = document.getElementById('name_button');
 const agreement = document.getElementById('agreement');
@@ -9,6 +7,8 @@ const loading = document.getElementById('loading');
 
 async function generateNames() {
     loading.textContent = 'Loading...';
+    const characters = await getCharNames();
+
     table.style.display = 'table';
     for (let character of characters) {
         const newRow = table.appendChild(document.createElement('tr'));

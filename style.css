@@ -26,3 +26,7 @@ th {
     padding: 4px;
     font-size: 115%;
 }
+
+#loading {
+    text-align: center;
+}
